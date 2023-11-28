@@ -1,8 +1,22 @@
 import React from 'react';
 
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+  // add title
+  document.title = "Computer vision";
+  // add input text to insert url image
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Computer vision</h1>
+        <label htmlFor="url">Insert url image</label>
+        <input type="text" id="url" name="url" placeholder="Insert url image" />
+        {/* // add button to analyze image */}
+        <button>Analyze</button>
+        {/* // add button to generate image */}
+        <button>Generate</button>
+      </header>
+    </div>
+  );
 }
 
 export default App;
