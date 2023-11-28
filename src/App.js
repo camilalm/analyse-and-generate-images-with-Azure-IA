@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Computer vision</h1>
+        <h1>Computer vision</h1><br />
         <label htmlFor="url">Insert url image</label>
-        <input type="text" id="url" name="url" placeholder="Insert url image" />
+        <input type="text" id="url" name="url" placeholder="Insert url image" /><br />
         {/* // add button to analyze image */}
         <button>Analyze</button>
         {/* // add button to generate image */}
